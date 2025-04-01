@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detailsStyle {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detailsStyle h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.detailsStyle p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.detailsStyle h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.detailsStyle button:hover {
+    background-color: #45a049;
+}
+
+.detailsStyle ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detailsStyle ul li {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.detailsStyle .bid-message {
+    font-size: 1.2rem;
+    color: #f44336;
+    font-weight: bold;
+}

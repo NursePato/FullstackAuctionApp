@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cardStyle {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.cardStyle:hover {
+    transform: scale(1.05);
+}
+
+.cardStyle h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cardStyle h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.cardStyle p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.cardStyle p strong {
+    font-weight: bold;
+}
+
+.cardStyle .auction-status {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #4CAF50;
+}
+
+.cardStyle .auction-status.closed {
+    color: #f44336;
+}

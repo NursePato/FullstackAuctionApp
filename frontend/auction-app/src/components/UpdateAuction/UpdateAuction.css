@@ -1,0 +1,98 @@
+.updateAuctionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.updateAuctionContainer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.updateAuctionContainer form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.updateAuctionContainer input,
+.updateAuctionContainer textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.updateAuctionContainer input[type="number"],
+.updateAuctionContainer input[type="datetime-local"] {
+    width: 48%;
+}
+
+.updateAuctionContainer input[type="number"] {
+    margin-right: 4%;
+}
+
+.updateAuctionContainer button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.updateAuctionContainer button:hover {
+    background-color: #45a049;
+}
+
+.startingPriceContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.info-icon {
+    margin-left: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #007bff;
+    transition: opacity 0.3s ease;
+    opacity: 0.6;
+    /* Subtle appearance */
+}
+
+.info-icon:hover {
+    opacity: 1;
+    /* Make it fully visible when hovered */
+}
+
+.info-icon[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
