@@ -30,16 +30,16 @@ The backend was built together as a student group of 4 and the frontend was late
 ## Getting Started
 
 ### 1. Clone the repo:
-Run the following command to clone the repository
+- Run the following command to clone the repository
 
 ```bash
-git clone https://github.com/your-username/FullstackAuctionApp.git
+git clone https://github.com/NursePato/FullstackAuctionApp.git
 ```
 
 ## 2. Set up the Backend:
-Navigate to the backend/ folder
-Restore the dependencies
-Run the backend application
+- Navigate to the backend/ folder
+- Restore the dependencies
+- Run the backend application
 ```bash
 cd backend
 dotnet restore
@@ -47,9 +47,9 @@ dotnet run
 ```
 
 ## 3. Set up the Frontend:
-Navigate to the frontend/ folder
-Install the dependencies
-Run the frontend application
+- Navigate to the frontend/ folder
+- Install the dependencies
+- Run the frontend application
 
 ```bash
 cd frontend
